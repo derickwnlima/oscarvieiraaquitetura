@@ -16,7 +16,7 @@ a:link, a:visited {
   color: #7F86A2;
 }
 
-a:hover {
+.menu a:hover {
   color: #373F6D;
   background-color: #e5e5e5;
 }
