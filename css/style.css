@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 25px;
+  font-family: 'Mate SC', serif;
+  background-color: #F1F3F8;
+}
+
+a:link, a:visited {
+  color: #7F86A2;
+}
+
+a:hover {
+  color: #373F6D;
+  background-color: #e5e5e5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0%;
+  left: 65%;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 100px;
+  heigth:100px;
+}
+
+.logo2 {
+  color: #21285A;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #21285A;
+}
+
+.feedback li {
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sobre_info p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.sobre img {
+  border-radius: 100%;
+  width: 300px;
+  heigth:300px;
+  padding: 20px 20px;
+}
+
+.sobre_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.imageCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageCenter {
+    transition: filter 1s;
+    will-change: transform;
+    }
+
+.imageCenter {
+   filter: drop-shadow(2px 2px 3px #000);
+}
+
+.projetos-1,.projetos-2,.projetos-3,.projetos-4 {
+  width: 32rem;
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.projetos-all {
+  justify-content: center;
+  display: flex;
+  justify-items: center;
+  margin: 20rem;
+  padding: 20rem;
+}
+
+.informacoes {
+
+}
+
+._blank {
+  display: flex;
+  width: 0%;
+  flex-direction: row;
+  text-justify: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px 25px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 4px #373F6D;
+  background: #373F6D;
+  margin-top: 50px;
+}
+
+.rodape p {
+  background-color: #373F6D;
+  font-size: 16px;
+  color: white;
+}
+
+@media screen and (max-width: 600px); {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0%;
+    left: 20%;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0%;
+    left: 10%;
+  }
+}
