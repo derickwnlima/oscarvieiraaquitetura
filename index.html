@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>Vieira Arquitetura</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="img/index.jpeg" />
+  </head>
+  <body>
+    <header class= "header">
+      <a> <img class= "logo" src= "img/index.jpeg"> </a>
+      <a class= "logo2"> Vieira Arquitetura </a> 
+      <nav> 
+        <ul class= "menu"> 
+          <li> <a href="#feedbacks"> Início </a> </li> 
+          <li> <a href="#sobre"> Sobre </a> </li>
+          <li> <a href="#projetos"> Projetos </a> </li>
+          <li> <a href="#contato"> Contato </a> </li> 
+        </ul> 
+      </nav>
+    </header>
+    <br>
+    <h2> <a id="feedbacks"> Feedbacks de Nossos Clientes </a> </h2>
+    <br>
+      <ul class= "feedback">
+        <li> "Profissional incrível!" </li>
+        <li> "Belos projetos. Transformou minha casa." </li>
+        <li> "Captou tudo o que eu queria no projeto." </li>
+      </ul>
+      <br>
+    <h2> <a id="sobre"> Sobre </a> </h2>
+    <br>
+    <div class="sobre">
+      <img  src= "img/sobre.jpeg">
+        <nav class= "sobre_info">
+          <p> Graduando em Arquitetura e Urbanismo na FSM - Faculdade Santa Maria </p>
+          <p> Especializado em Design e Paisagismo - UFPB </p>
+          <p> CEO de um Escritório de Arquitetura e Design  </p>
+        </nav>
+    </div>
+    <br>
+    <h2> <a id="projetos"> Projetos </a> </h2>
+    <br>
+    <div class="imageCenter">
+      <a> <img class="projetos-1" src="img/projetos/Projeto1.png"> </a>
+      <a> <img class="projetos-2" src="img/projetos/Projeto2.png"> </a>
+      <a> <img class="projetos-3" src="img/projetos/Projeto3.png"> </a>
+      <a> <img class="projetos-4" src="img/projetos/Projeto4.png"> </a>
+    </div>
+    <br>
+    <h2> <a id="contato"> Nossos Contatos </a> </h2>
+    <br>
+    <p class="informacoes"> Para mais informações entre em contato conosco através do formulário ou pelo e-mail (vieira.arquitetura@gmail.com) ou diretamente pelo WhatsApp abaixo. </p>
+    <p><a class="_blank" href="https://api.whatsapp.com/send?phone=5583981535732" title="WhatsApp Vieira Arquitetura">WhatsApp</a></p>
+    <main class="formulario">
+      <form action="sucesso.html" method="post">
+        <fieldset>
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required> *
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+          </div>
+          <div>
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" name="titulo">
+          </div>
+          <div>
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+          </div>
+        </fieldset>
+        <input type="submit" value="Enviar">
+      </form>
+    </main>
+    <div class="map">
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d9975.631185139375!2d-34.84835703050836!3d-7.145435877516528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d-7.148663399999999!2d-34.8458665!4m5!1s0x7acc29158dfeab3%3A0xba8c1e81501b3efc!2sR.%20Farmac%C3%AAutico%20Ant%C3%B4nio%20Leopoldo%20Batista%2C%20105%20-%20Jardim%20Sao%20Paulo%2C%20Jo%C3%A3o%20Pessoa%20-%20PB%2C%2058053-047%2C%20Brasil!3m2!1d-7.1485695!2d-34.8459435!5e0!3m2!1spt-BR!2sbr!4v1622158728676!5m2!1spt-BR!2sbr" 
+      width="600" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+      </iframe>
+    </div> 
+    <footer class="rodape">
+      <p>Desenvolvido por Osmar Vieira e Dérick Lima</p>
+    </footer>
+  </body>
+</html>
